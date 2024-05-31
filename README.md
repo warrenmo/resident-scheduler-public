@@ -1,7 +1,7 @@
 # Resident Scheduler
 
-This project aims to programmatically generate year-long, rotation/service
-schedules for medical residents. This program does not determine
+This project provides a Python module that allows for the programmatic generation of
+year-long, rotation/service schedules for medical residents. This program does not determine
 which days of the week a specific resident is off, but rather to which
 rotation/service a given resident will be assigned for a given month/block.
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-The three main classes from this module are `Resident`, `Service`, and `Scheduler`.
+The three main classes from this Python module are `Resident`, `Service`, and `Scheduler`.
 
 ```python
 from resident_scheduler_public import Resident, Scheduler, Service
